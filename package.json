@@ -8,7 +8,8 @@
     "lint": "eslint . && prettier Readability.js JSDOMParser.js test/*.js --check",
     "test": "mocha test/test-*.js",
     "generate-testcase": "node test/generate-testcase.js",
-    "release": "release-it"
+    "release": "release-it",
+    "debug": "node debug.js"
   },
   "repository": {
     "type": "git",
